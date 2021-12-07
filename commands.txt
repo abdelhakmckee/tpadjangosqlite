@@ -1,0 +1,6 @@
+docker-compose up (run container)
+docker-compose down (shutdown all containers)
+docker-compose run web (run web container only)
+docker-compose run web django-admin startproject PROJEC_NAME .
+docker-compose run web python manage.py migrate
+docker-compose run web python manage.py createsuperuser
