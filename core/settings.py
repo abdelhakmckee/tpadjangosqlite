@@ -24,9 +24,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-^v(e_b@tf_sy@5pa$-#8cw9cfw6z7==-4o_&edg)w#2(3@0qo3'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False #True
+DEBUG = True
 
-ALLOWED_HOSTS = ['https://tpadjangosqlite.azurewebsites.net/']
+ALLOWED_HOSTS = ['127.0.0.1', 'https://tpadjangosqlite.azurewebsites.net/']
 
 
 # Application definition
